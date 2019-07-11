@@ -1,0 +1,14 @@
+packpage zattini;
+
+public class Endereco();
+
+public static void main(String[] args) {
+    Set<Cliente> conjunto = new HashSet<Endereco>();
+         
+    endereco a = new endereco("Rua João da Silva", 0);
+    endereco b = new endereco("Rua Antonio Sousa", 0);
+    conjunto.add(a);
+    conjunto.add(b);
+    System.out.println(conjunto);
+  }
+}
